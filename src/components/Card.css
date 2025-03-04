@@ -1,0 +1,48 @@
+.my-card {
+  border: 1px solid #ddd; /* 轻微的边框 */
+  border-radius: 8px; /* 圆角边框 */
+  overflow: hidden; /* 防止内容溢出 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 轻微的阴影 */
+  width: 250px; /* 卡片宽度 */
+  margin: 10px; /* 外边距 */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* 字体 */
+}
+
+.card-header {
+  background-color: #f7f7f7; /* 浅灰色背景 */
+  padding: 15px; /* 内边距 */
+  font-size: 18px; /* 字体大小 */
+  font-weight: bold; /* 加粗 */
+  color: #333; /* 字体颜色 */
+  border-bottom: 1px solid #ddd; /* 分隔线 */
+}
+
+.card-body {
+  padding: 15px; /* 内边距 */
+  font-size: 16px; /* 字体大小 */
+  color: #666; /* 字体颜色 */
+}
+
+.card-footer {
+  background-color: #eaeaea; /* 更浅的灰色背景 */
+  padding: 10px; /* 内边距 */
+  text-align: right; /* 内容右对齐 */
+  font-size: 14px; /* 字体大小 */
+  color: #888; /* 字体颜色 */
+  border-top: 1px solid #ddd; /* 分隔线 */
+}
+
+/* 为 footer 内的按钮添加样式 */
+.card-footer button {
+  background-color: #007bff; /* 蓝色背景 */
+  color: white; /* 白色字体 */
+  border: none; /* 无边框 */
+  padding: 5px 10px; /* 内边距 */
+  border-radius: 5px; /* 圆角 */
+  cursor: pointer; /* 鼠标悬停时显示指针 */
+  transition: background-color 0.3s ease; /* 平滑过渡效果 */
+}
+
+.card-footer button:hover {
+  background-color: #0056b3; /* 悬停时的深色背景 */
+}
